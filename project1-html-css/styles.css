@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hader{
+    background-color: #E74694;
+    background-image: url("./assets/asset 32.png");
+    background-size: 300px;
+    color: azure;
+    text-align: center;
+    height: 50px;
+    padding-top: 2px;
+}
+.first{
+    margin-top: 15px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+    .logo>img{
+        width: 180px;
+    }
+li{
+    display: inline-block;
+    margin: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+li:hover{
+    color: rgb(91, 155, 230);
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 15px;
+    cursor: pointer;
+
+}
+    .button1{
+        border: 1px solid #0f4d75;
+        width: 100px;
+        padding: 10px;
+        color: #0f4d75;
+    }
+  .button1:hover{
+    color: rgb(78, 106, 231);
+  } 
+    
+ 
+ .button2{
+    background-color: #0f4d75;
+    color: beige;
+    border: #0f4d75;
+    padding: 10px;
+    width: 100px;
+ }
+ .button2:hover{
+    background-color: #041647;
+ }
+ 
+ 
+ .hero-section-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+ }
+ .hero-section-img>img{
+    width: 600px;
+    margin-top: 30px;
+ }
+ .hero-section-text>h1{
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 30px 0px;
+ }
+ .hero-section-text>p{
+    font-size: 30px;
+    color: #06151f;
+ }
+ .button{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 150px;
+    padding: 20px;
+    height: 20px;
+    background-color: #0f4d75;
+    color: rgb(249, 251, 252);
+    margin-left: 70px;
+ }
+ .logo-section-parent{
+    font-weight: bold;
+    font-size: 20px;
+    color: #345368;
+    text-align: center;
+    margin-top: 20px;
+ }
+ .logo-section-parent>img{
+    display: flex;
+    width: 100px;
+    margin-top: 20px;
+    justify-content: space-between;
+    
+} 
