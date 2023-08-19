@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(220, 235, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    color: rgb(224, 16, 16);
+}
+div{
+    height: 52px;
+    width: 380px;
+    bottom: 20px;
+    background: rgba(8, 8, 8, 0.1);
+    padding: 10px, 20px;
+    font-size: 20px;
+    color: black;
+}
+input{
+    width: 50px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: darksalmon;
+    border: none;
+    text-align: center;
+
+}
+input:focus{
+    outline: none;
+}
